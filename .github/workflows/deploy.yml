@@ -35,5 +35,5 @@ jobs:
     steps:
       - name: Output information
         run: |        
-          echo "MongosDB Username: ${{env.MONGODB_USERNAME}}"
+          echo "MongoDB Username: ${{env.MONGODB_USERNAME}}"
           echo "MongoDB DB Name: $MONGODB_DB_NAME"
